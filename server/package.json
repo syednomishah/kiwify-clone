@@ -1,0 +1,39 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Provides jetboard api services",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JetboardNow",
+  "license": "Copyright JetboardNow",
+  "dependencies": {
+    "aws-sdk": "^2.814.0",
+    "axios": "^0.23.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "link-preview-js": "^2.1.8",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^3.0.0",
+    "node-validator": "^0.1.27",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "onesignal-node": "^3.2.1",
+    "pdf-to-img": "^1.2.0",
+    "pdf2img": "^0.5.0",
+    "pdf2pic": "^2.1.4",
+    "pdf2png": "^1.0.5",
+    "sequelize": "^5.21.5",
+    "socket.io": "^2.3.0",
+    "stripe": "^8.39.2",
+    "twilio": "^3.67.0"
+  }
+}
